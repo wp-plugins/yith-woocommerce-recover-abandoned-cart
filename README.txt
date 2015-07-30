@@ -1,7 +1,7 @@
 ﻿=== YITH WooCommerce Recover Abandoned Cart  ===
 
 Contributors: yithemes
-Tags:
+Tags: abandoned cart, recover, cart, recover, cart, woocommerce, yith, recover abandoned  cart, carts, conversion, follow up, email, marketing, coupon, coupons, cart abandonment, carthook, checkout, commerce, e-commerce, ecommerce, abandoning visitors, cart rescuer, cartrescuer, offers, sales, visitor recovery
 Requires at least: 3.5.1
 Tested up to: 4.2
 Stable tag: 1.0.0
