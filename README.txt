@@ -16,6 +16,7 @@ Set the time span to consider a cart abandoned and customize a contact email tha
 
 
 **Plugin's features:**
+
 * Set the time span to consider a cart abandoned
 * Customize the sender and the subject of the email
 * Customize the content of the email to send to customers
