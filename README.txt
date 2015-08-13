@@ -4,7 +4,7 @@ Contributors: yithemes
 Tags: abandoned cart, recover, cart, recover, cart, woocommerce, yith, recover abandoned  cart, carts, conversion, follow up, email, marketing, coupon, coupons, cart abandonment, carthook, checkout, commerce, e-commerce, ecommerce, abandoning visitors, cart rescuer, cartrescuer, offers, sales, visitor recovery
 Requires at least: 3.5.1
 Tested up to: 4.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,6 @@ Set the time span to consider a cart abandoned and customize a contact email tha
 
 
 **Plugin's features:**
-
 * Set the time span to consider a cart abandoned
 * Customize the sender and the subject of the email
 * Customize the content of the email to send to customers
@@ -37,6 +36,10 @@ There, you will find all Yithemes plugins with quick access to plugin setting pa
 
 
 == Changelog ==
+= 1.0.1 =
+Added: Support to WooCommerce 2.4.2
+Updated: Plugin Core Framework
+
 = 1.0.0 =
 Initial release
 

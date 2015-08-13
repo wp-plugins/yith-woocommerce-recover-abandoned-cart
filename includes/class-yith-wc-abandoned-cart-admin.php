@@ -210,7 +210,7 @@ if ( !class_exists( 'YITH_WC_Recover_Abandoned_Cart_Admin' ) ) {
             $this->_panel = new YIT_Plugin_Panel_WooCommerce( $args );
 
             add_action( 'woocommerce_admin_field_ywrac_additional_textarea', array( $this, 'additional_textarea' ), 10, 1 );
-            add_action( 'woocommerce_update_option_ywrac_additional_textarea', array( $this, 'update_additional_textarea' ), 10, 1 );
+            add_filter('woocommerce_admin_settings_sanitize_option_ywrac_email_content', array( $this, 'sanitize'), 10, 3);
 
             //Custom tinymce button
             add_action('admin_head', array( $this, 'tc_button' ) );
@@ -218,6 +218,9 @@ if ( !class_exists( 'YITH_WC_Recover_Abandoned_Cart_Admin' ) ) {
 
         }
 
+        public function sanitize(  $value, $option, $raw_value  ) {
+            return nl2br($raw_value);
+        }
         /**
          * Add a new button to tinymce
          *

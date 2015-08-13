@@ -2,7 +2,7 @@
 /*
 Plugin Name: YITH WooCommerce Recover Abandoned Cart
 Description: YITH WooCommerce Recover Abandoned Cart
-Version: 1.0.0
+Version: 1.0.1
 Author: yithemes
 Author URI: http://yithemes.com/
 Text Domain: ywrac
@@ -63,7 +63,7 @@ if ( !function_exists( 'yith_ywrac_install_woocommerce_admin_notice' ) ) {
 if ( defined( 'YITH_YWRAC_VERSION' ) ) {
     return;
 }else{
-    define( 'YITH_YWRAC_VERSION', '1.0.0' );
+    define( 'YITH_YWRAC_VERSION', '1.0.1' );
 }
 
 if ( ! defined( 'YITH_YWRAC_FREE_INIT' ) ) {
